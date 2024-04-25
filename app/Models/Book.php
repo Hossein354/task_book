@@ -9,10 +9,10 @@ class Book extends Model
 {
     use HasFactory;
 
-    protected $gurded = [];
+    protected $guarded = [];
 
     public function writer()
     {
-        return $this->belongsTo(writer::class);
+        return $this->belongsTo(User::class);
     }
 }

@@ -2,7 +2,6 @@
 
 namespace Database\Factories;
 
-use App\Models\Book;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Facades\Hash;
 
@@ -10,7 +9,7 @@ use Illuminate\Support\Facades\Hash;
 /**
  * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Writer>
  */
-class WriterFactory extends Factory
+class UserFactory extends Factory
 {
     /**
      * Define the model's default state.

@@ -2,17 +2,17 @@
 
 namespace Database\Seeders;
 
-use App\Models\Writer;
+use App\Models\User;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
-class WriterTableSeeder extends Seeder
+class UserTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
      */
     public function run(): void
     {
-        Writer::factory(10)->create();
+        User::factory(10)->create();
     }
 }

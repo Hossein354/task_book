@@ -3,7 +3,6 @@
 namespace Database\Seeders;
 
 use App\Models\Book;
-use Faker\Factory;
 use Illuminate\Database\Seeder;
 
 class BookTableSeeder extends Seeder

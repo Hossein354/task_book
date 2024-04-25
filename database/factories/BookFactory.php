@@ -19,7 +19,7 @@ class BookFactory extends Factory
         return [
             'title' => fake()->sentence(),
             'subject' => fake()->text(),
-            'writer_id' => rand(1,10)
+            'user_id' => rand(1,10)
         ];
     }
 }
